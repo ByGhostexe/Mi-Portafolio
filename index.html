@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oswaldo Arias - Portafolio Digital</title>
+    <meta name="description" content="Portafolio digital de Oswaldo Arias, Técnico en Computación e Informática especializado en desarrollo web y seguridad informática.">
+    
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2>Oswaldo Arias</h2>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link"><b>Inicio</b></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Sobre Mí</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Habilidades</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Proyectos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+    <div class="hero__container container grid">
+        <div class="hero__content">
+            <p class="hero__greeting">HOLA, SOY</p>
+            <h1 class="hero__title">
+                <span class="hero__title-color">OSWALDO ARIAS</span>
+            </h1>
+            <h3 class="hero__subtitle">Técnico en Computación e Informática • Desarrollador Web</h3>
+            <p class="hero__description">
+                Estudiante de APSTI apasionada por crear experiencias web modernas y funcionales. 
+                Especializada en tecnologías frontend con enfoque en diseño responsivo y user experience.
+            </p>
+            <div class="hero__buttons">
+                <a href="#projects" class="button button--primary">PROYECTOS</a>
+            </div>
+        </div>
+        
+        <div class="hero__img">
+            <div class="hero__img-container">
+                <div class="hero__profile-img">
+                    <img src="/placeholder.svg?height=240&width=240" alt="Oswaldo Arias Profile">
+                </div>
+                <div class="hero__social">
+                    <a href="#" class="hero__social-link">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="#" class="hero__social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="hero__social-link">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                    <a href="#" class="hero__social-link">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+    <h2 class="section__title">SOBRE MÍ</h2>
+    <span class="section__subtitle">Mi introducción</span>
+    
+    <div class="about__container container grid">
+        <div class="about__data">
+            <p class="about__description">
+                Soy un entusiasta de la tecnología con un fuerte interés por la Seguridad Informática y el Hacking Ético. Siempre motivado por aprender y explorar nuevas herramientas que fortalezcan la seguridad digital. Mi experiencia abarca el desarrollo web, la administración de bases de datos, las redes informáticas, y el soporte técnico.
+            </p>
+            
+            <div class="about__info">
+                <div class="about__info-item">
+                    <span class="about__info-title">02+</span>
+                    <span class="about__info-name">Años de<br>Experiencia</span>
+                </div>
+                
+                <div class="about__info-item">
+                    <span class="about__info-title">05+</span>
+                    <span class="about__info-name">Proyectos<br>Terminados</span>
+                </div>
+                
+                <div class="about__info-item">
+                    <span class="about__info-title">04+</span>
+                    <span class="about__info-name">Tecnologías<br>Dominadas</span>
+                </div>
+            </div>
+            
+            <div class="about__buttons">
+                <a href="#" class="button button--primary">DESCARGAR CV</a>
+            </div>
+        </div>
+        
+        <div class="about__img">
+            <div class="about__profile-img">
+                <img src="/placeholder.svg?height=240&width=240" alt="About Profile">
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Habilidades</h2>
+            <span class="section__subtitle">Mi nivel técnico</span>
+            
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Developer</h3>
+                    
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fab fa-html5"></i>
+                                <div>
+                                    <h3 class="skills__name">HTML5</h3>
+                                    <span class="skills__level">Avanzado</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <i class="fab fa-css3-alt"></i>
+                                <div>
+                                    <h3 class="skills__name">CSS3</h3>
+                                    <span class="skills__level">Avanzado</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <i class="fab fa-js-square"></i>
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__level">Intermedio</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fab fa-react"></i>
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Intermedio</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <i class="fab fa-sass"></i>
+                                <div>
+                                    <h3 class="skills__name">Sass</h3>
+                                    <span class="skills__level">Intermedio</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <i class="fab fa-git-alt"></i>
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Intermedio</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills__content">
+                    <h3 class="skills__title">Diseño & Herramientas</h3>
+                    
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fab fa-figma"></i>
+                                <div>
+                                    <h3 class="skills__name">Figma</h3>
+                                    <span class="skills__level">Intermedio</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <i class="fas fa-palette"></i>
+                                <div>
+                                    <h3 class="skills__name">UI/UX Design</h3>
+                                    <span class="skills__level">Básico</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <i class="fas fa-mobile-alt"></i>
+                                <div>
+                                    <h3 class="skills__name">Responsive Design</h3>
+                                    <span class="skills__level">Avanzado</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fas fa-comments"></i>
+                                <div>
+                                    <h3 class="skills__name">Comunicación</h3>
+                                    <span class="skills__level">Avanzado</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <i class="fas fa-users"></i>
+                                <div>
+                                    <h3 class="skills__name">Trabajo en Equipo</h3>
+                                    <span class="skills__level">Avanzado</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <i class="fas fa-lightbulb"></i>
+                                <div>
+                                    <h3 class="skills__name">Creatividad</h3>
+                                    <span class="skills__level">Avanzado</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Proyectos</h2>
+            <span class="section__subtitle">Trabajos más recientes</span>
+            
+            <div class="projects__container container grid">
+                <div class="projects__content">
+                    <img src="/placeholder.svg?height=250&width=350" alt="E-commerce Website" class="projects__img">
+                    
+                    <div class="projects__data">
+                        <h3 class="projects__title">E-commerce Website</h3>
+                        <p class="projects__description">
+                            Sitio web de comercio electrónico completamente responsivo desarrollado con HTML5, CSS3 y JavaScript. 
+                            Incluye carrito de compras, filtros de productos y diseño moderno.
+                        </p>
+                        <div class="projects__technologies">
+                            <span class="projects__tech">HTML5</span>
+                            <span class="projects__tech">CSS3</span>
+                            <span class="projects__tech">JavaScript</span>
+                        </div>
+                        <a href="#" class="button button--small button--primary">
+                            <i class="fas fa-external-link-alt"></i> Ver
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="projects__content">
+                    <img src="/placeholder.svg?height=250&width=350" alt="Task Manager App" class="projects__img">
+                    
+                    <div class="projects__data">
+                        <h3 class="projects__title">Task Manager App</h3>
+                        <p class="projects__description">
+                            Aplicación web para gestión de tareas con funcionalidades de crear, editar, eliminar y 
+                            marcar como completadas. Interfaz intuitiva y almacenamiento local.
+                        </p>
+                        <div class="projects__technologies">
+                            <span class="projects__tech">React</span>
+                            <span class="projects__tech">CSS3</span>
+                            <span class="projects__tech">LocalStorage</span>
+                        </div>
+                        <a href="#" class="button button--small button--primary">
+                            <i class="fas fa-external-link-alt"></i> Ver
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="projects__content">
+                    <img src="/placeholder.svg?height=250&width=350" alt="Portfolio Website" class="projects__img">
+                    
+                    <div class="projects__data">
+                        <h3 class="projects__title">Portfolio Personal</h3>
+                        <p class="projects__description">
+                            Sitio web personal completamente responsivo con animaciones CSS, navegación suave y 
+                            diseño moderno. Optimizado para SEO y accesibilidad.
+                        </p>
+                        <div class="projects__technologies">
+                            <span class="projects__tech">HTML5</span>
+                            <span class="projects__tech">Sass</span>
+                            <span class="projects__tech">JavaScript</span>
+                        </div>
+                        <a href="#" class="button button--small button--primary">
+                            <i class="fas fa-external-link-alt"></i> Ver
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contacto</h2>
+            <span class="section__subtitle">Ponte en contacto</span>
+            
+            <div class="contact__container container grid">
+                <div class="contact__information">
+                    <div class="contact__info">
+                        <i class="fas fa-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Teléfono</h3>
+                            <span class="contact__subtitle">+506 8888-9999</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__info">
+                        <i class="fas fa-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">maria.gonzalez@email.com</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__info">
+                        <i class="fas fa-map-marker-alt contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Ubicación</h3>
+                            <span class="contact__subtitle">San José, Costa Rica</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__social">
+                        <a href="#" class="contact__social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="contact__social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="contact__social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <div class="contact__content">
+                            <label for="name" class="contact__label">Nombre</label>
+                            <input type="text" id="name" class="contact__input" required>
+                        </div>
+                        
+                        <div class="contact__content">
+                            <label for="email" class="contact__label">Email</label>
+                            <input type="email" id="email" class="contact__input" required>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__content">
+                        <label for="subject" class="contact__label">Asunto</label>
+                        <input type="text" id="subject" class="contact__input" required>
+                    </div>
+                    
+                    <div class="contact__content">
+                        <label for="message" class="contact__label">Mensaje</label>
+                        <textarea id="message" cols="0" rows="7" class="contact__input" required></textarea>
+                    </div>
+                    
+                    <div>
+                        <button type="submit" class="button button--primary">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Oswaldo Arias</h1>
+                    <span class="footer__subtitle">Desarrollador Web Frontend</span>
+                </div>
+                
+                <ul class="footer__links">
+                    <li>
+                        <a href="#skills" class="footer__link">Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="footer__link">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contacto</a>
+                    </li>
+                </ul>
+                
+                <div class="footer__socials">
+                    <a href="#" class="footer__social">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="footer__social">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="footer__social">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <p class="footer__copy">&#169; 2025 Oswaldo Arias. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll Up Button -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
